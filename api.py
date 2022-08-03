@@ -26,4 +26,4 @@ def about():
     json_res = json.dumps(data_set, default=str);
     return json_res
 
-app.run(host='0.0.0.0', port=8000)
+app.run(host='0.0.0.0', port=80)
